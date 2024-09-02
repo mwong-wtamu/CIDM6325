@@ -1,0 +1,1566 @@
+[
+{
+  "model": "admin.logentry",
+  "pk": 1,
+  "fields": {
+    "action_time": "2024-08-31T22:05:10.871Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "1",
+    "object_repr": "Hello World",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 2,
+  "fields": {
+    "action_time": "2024-08-31T22:12:11.337Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "2",
+    "object_repr": "Hello World",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 3,
+  "fields": {
+    "action_time": "2024-08-31T22:12:53.970Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "3",
+    "object_repr": "Hello World",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 4,
+  "fields": {
+    "action_time": "2024-08-31T22:13:17.903Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "3",
+    "object_repr": "Hello World",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 5,
+  "fields": {
+    "action_time": "2024-09-01T19:24:23.156Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "1",
+    "object_repr": "Hello World",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Status\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 6,
+  "fields": {
+    "action_time": "2024-09-01T19:24:27.124Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "4",
+    "object_repr": "New title",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Status\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 7,
+  "fields": {
+    "action_time": "2024-09-01T19:24:30.686Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "5",
+    "object_repr": "One more post",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Status\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 8,
+  "fields": {
+    "action_time": "2024-09-01T19:24:34.128Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "8",
+    "object_repr": "New title",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Status\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 9,
+  "fields": {
+    "action_time": "2024-09-02T00:28:01.103Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "9",
+    "object_repr": "Hello World",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 10,
+  "fields": {
+    "action_time": "2024-09-02T00:28:09.907Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "9",
+    "object_repr": "Hello World",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Status\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 11,
+  "fields": {
+    "action_time": "2024-09-02T00:28:52.092Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "2",
+    "object_repr": "Hello World",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Slug\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 12,
+  "fields": {
+    "action_time": "2024-09-02T00:28:56.782Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "1",
+    "object_repr": "Hello World",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Slug\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 13,
+  "fields": {
+    "action_time": "2024-09-02T00:29:01.653Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "3",
+    "object_repr": "Hello World",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Slug\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 14,
+  "fields": {
+    "action_time": "2024-09-02T00:29:19.781Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "4",
+    "object_repr": "New title",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Slug\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 15,
+  "fields": {
+    "action_time": "2024-09-02T00:31:27.563Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "9",
+    "object_repr": "Israelis erupt in protest to demand a cease-fire after 6 more hostages die in Gaza",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Title\", \"Slug\", \"Body\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 16,
+  "fields": {
+    "action_time": "2024-09-02T00:32:19.958Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "8",
+    "object_repr": "NASA record holder can relate to astronauts stuck in space. He was, too",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Title\", \"Slug\", \"Body\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 17,
+  "fields": {
+    "action_time": "2024-09-02T00:32:50.554Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "9",
+    "object_repr": "Israelis erupt in protest to demand a cease-fire after 6 more hostages die in Gaza",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Body\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 18,
+  "fields": {
+    "action_time": "2024-09-02T00:32:58.060Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "8",
+    "object_repr": "NASA record holder can relate to astronauts stuck in space. He was, too",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Body\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 19,
+  "fields": {
+    "action_time": "2024-09-02T00:33:45.785Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "5",
+    "object_repr": "Moms for Liberty fully embraces Trump and widens role in national politics as election nears",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Title\", \"Slug\", \"Body\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 20,
+  "fields": {
+    "action_time": "2024-09-02T00:35:04.081Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "4",
+    "object_repr": "Strikes start at top hotel chains as housekeepers seek higher wages and daily room cleaning work",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Title\", \"Slug\", \"Body\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 21,
+  "fields": {
+    "action_time": "2024-09-02T00:35:53.459Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "2",
+    "object_repr": "Caitlin Clark scores 28, Fever overcome Arike Ogunbowale’s record-tying 9 3s and beat Wings 100-93",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Title\", \"Slug\", \"Body\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 22,
+  "fields": {
+    "action_time": "2024-09-02T00:36:33.768Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "1",
+    "object_repr": "Stock market today: Wall Street climbs as S&P 500 closes out fourth straight winning month",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Title\", \"Slug\", \"Body\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 23,
+  "fields": {
+    "action_time": "2024-09-02T00:37:24.039Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "3",
+    "object_repr": "Stock market today: Losses for Big Tech companies lead Wall Street lower",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Title\", \"Slug\", \"Body\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 24,
+  "fields": {
+    "action_time": "2024-09-02T00:37:59.754Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "7",
+    "object_repr": "Nvidia stock slips even after earnings top Wall Street estimates and demand for AI chips surges",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Title\", \"Slug\", \"Body\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 25,
+  "fields": {
+    "action_time": "2024-09-02T00:38:32.512Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "6",
+    "object_repr": "US shoppers sharply boosted spending at retailers in July despite higher prices",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Title\", \"Slug\", \"Body\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 26,
+  "fields": {
+    "action_time": "2024-09-02T00:39:37.773Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "10",
+    "object_repr": "How US changes to ‘noncompete’ agreements and overtime pay could affect workers",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 27,
+  "fields": {
+    "action_time": "2024-09-02T00:39:58.368Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "10",
+    "object_repr": "How US changes to ‘noncompete’ agreements and overtime pay could affect workers",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Status\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 28,
+  "fields": {
+    "action_time": "2024-09-02T00:40:02.325Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "7",
+    "object_repr": "Nvidia stock slips even after earnings top Wall Street estimates and demand for AI chips surges",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Status\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 29,
+  "fields": {
+    "action_time": "2024-09-02T00:40:05.854Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "6",
+    "object_repr": "US shoppers sharply boosted spending at retailers in July despite higher prices",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Status\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 30,
+  "fields": {
+    "action_time": "2024-09-02T00:44:24.159Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "11",
+    "object_repr": "California lawmakers approve legislation to ban deepfakes, protect workers and regulate AI",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 31,
+  "fields": {
+    "action_time": "2024-09-02T00:44:27.865Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "11",
+    "object_repr": "California lawmakers approve legislation to ban deepfakes, protect workers and regulate AI",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Status\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 32,
+  "fields": {
+    "action_time": "2024-09-02T00:44:43.021Z",
+    "user": 1,
+    "content_type": 4,
+    "object_id": "2",
+    "object_repr": "admin2",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 33,
+  "fields": {
+    "action_time": "2024-09-02T03:51:16.433Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "1",
+    "object_repr": "Comment by Wall Street Bets on Stock market today: Losses for Big Tech companies lead Wall Street lower",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 34,
+  "fields": {
+    "action_time": "2024-09-02T03:51:27.262Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "1",
+    "object_repr": "Comment by Wall Street Bets on Stock market today: Losses for Big Tech companies lead Wall Street lower",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Email\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 35,
+  "fields": {
+    "action_time": "2024-09-02T15:20:53.862Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "3",
+    "object_repr": "Stock market today: Losses for Big Tech companies lead Wall Street lower",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Tags\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 36,
+  "fields": {
+    "action_time": "2024-09-02T15:21:07.131Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "1",
+    "object_repr": "test",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 37,
+  "fields": {
+    "action_time": "2024-09-02T15:21:07.135Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "3",
+    "object_repr": "test2",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 38,
+  "fields": {
+    "action_time": "2024-09-02T15:21:07.139Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "2",
+    "object_repr": "test3",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 39,
+  "fields": {
+    "action_time": "2024-09-02T15:21:21.257Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "3",
+    "object_repr": "Stock market today: Losses for Big Tech companies lead Wall Street lower",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Tags\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 40,
+  "fields": {
+    "action_time": "2024-09-02T15:21:54.717Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "3",
+    "object_repr": "Stock market today: Losses for Big Tech companies lead Wall Street lower",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Tags\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 41,
+  "fields": {
+    "action_time": "2024-09-02T15:27:12.546Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "1",
+    "object_repr": "Stock market today: Wall Street climbs as S&P 500 closes out fourth straight winning month",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Tags\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 42,
+  "fields": {
+    "action_time": "2024-09-02T15:27:33.470Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "3",
+    "object_repr": "Stock market today: Losses for Big Tech companies lead Wall Street lower",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Tags\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 43,
+  "fields": {
+    "action_time": "2024-09-02T15:27:37.673Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "1",
+    "object_repr": "Stock market today: Wall Street climbs as S&P 500 closes out fourth straight winning month",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Tags\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 44,
+  "fields": {
+    "action_time": "2024-09-02T15:27:45.440Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "2",
+    "object_repr": "Caitlin Clark scores 28, Fever overcome Arike Ogunbowale’s record-tying 9 3s and beat Wings 100-93",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Tags\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 45,
+  "fields": {
+    "action_time": "2024-09-02T15:27:54.952Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "4",
+    "object_repr": "Strikes start at top hotel chains as housekeepers seek higher wages and daily room cleaning work",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Tags\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 46,
+  "fields": {
+    "action_time": "2024-09-02T15:28:00.378Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "5",
+    "object_repr": "Moms for Liberty fully embraces Trump and widens role in national politics as election nears",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Tags\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 47,
+  "fields": {
+    "action_time": "2024-09-02T15:28:06.853Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "6",
+    "object_repr": "US shoppers sharply boosted spending at retailers in July despite higher prices",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Tags\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 48,
+  "fields": {
+    "action_time": "2024-09-02T15:28:33.298Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "7",
+    "object_repr": "Nvidia stock slips even after earnings top Wall Street estimates and demand for AI chips surges",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Tags\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 49,
+  "fields": {
+    "action_time": "2024-09-02T15:28:50.312Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "8",
+    "object_repr": "NASA record holder can relate to astronauts stuck in space. He was, too",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Tags\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 50,
+  "fields": {
+    "action_time": "2024-09-02T15:28:55.705Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "9",
+    "object_repr": "Israelis erupt in protest to demand a cease-fire after 6 more hostages die in Gaza",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Tags\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 51,
+  "fields": {
+    "action_time": "2024-09-02T15:29:01.823Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "10",
+    "object_repr": "How US changes to ‘noncompete’ agreements and overtime pay could affect workers",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Tags\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 52,
+  "fields": {
+    "action_time": "2024-09-02T15:29:10.953Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "11",
+    "object_repr": "California lawmakers approve legislation to ban deepfakes, protect workers and regulate AI",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Tags\"]}}]"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 1,
+  "fields": {
+    "name": "Can add log entry",
+    "content_type": 1,
+    "codename": "add_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 2,
+  "fields": {
+    "name": "Can change log entry",
+    "content_type": 1,
+    "codename": "change_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 3,
+  "fields": {
+    "name": "Can delete log entry",
+    "content_type": 1,
+    "codename": "delete_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 4,
+  "fields": {
+    "name": "Can view log entry",
+    "content_type": 1,
+    "codename": "view_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 5,
+  "fields": {
+    "name": "Can add permission",
+    "content_type": 2,
+    "codename": "add_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 6,
+  "fields": {
+    "name": "Can change permission",
+    "content_type": 2,
+    "codename": "change_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 7,
+  "fields": {
+    "name": "Can delete permission",
+    "content_type": 2,
+    "codename": "delete_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 8,
+  "fields": {
+    "name": "Can view permission",
+    "content_type": 2,
+    "codename": "view_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 9,
+  "fields": {
+    "name": "Can add group",
+    "content_type": 3,
+    "codename": "add_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 10,
+  "fields": {
+    "name": "Can change group",
+    "content_type": 3,
+    "codename": "change_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 11,
+  "fields": {
+    "name": "Can delete group",
+    "content_type": 3,
+    "codename": "delete_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 12,
+  "fields": {
+    "name": "Can view group",
+    "content_type": 3,
+    "codename": "view_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 13,
+  "fields": {
+    "name": "Can add user",
+    "content_type": 4,
+    "codename": "add_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 14,
+  "fields": {
+    "name": "Can change user",
+    "content_type": 4,
+    "codename": "change_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 15,
+  "fields": {
+    "name": "Can delete user",
+    "content_type": 4,
+    "codename": "delete_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 16,
+  "fields": {
+    "name": "Can view user",
+    "content_type": 4,
+    "codename": "view_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 17,
+  "fields": {
+    "name": "Can add content type",
+    "content_type": 5,
+    "codename": "add_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 18,
+  "fields": {
+    "name": "Can change content type",
+    "content_type": 5,
+    "codename": "change_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 19,
+  "fields": {
+    "name": "Can delete content type",
+    "content_type": 5,
+    "codename": "delete_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 20,
+  "fields": {
+    "name": "Can view content type",
+    "content_type": 5,
+    "codename": "view_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 21,
+  "fields": {
+    "name": "Can add session",
+    "content_type": 6,
+    "codename": "add_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 22,
+  "fields": {
+    "name": "Can change session",
+    "content_type": 6,
+    "codename": "change_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 23,
+  "fields": {
+    "name": "Can delete session",
+    "content_type": 6,
+    "codename": "delete_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 24,
+  "fields": {
+    "name": "Can view session",
+    "content_type": 6,
+    "codename": "view_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 25,
+  "fields": {
+    "name": "Can add post",
+    "content_type": 7,
+    "codename": "add_post"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 26,
+  "fields": {
+    "name": "Can change post",
+    "content_type": 7,
+    "codename": "change_post"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 27,
+  "fields": {
+    "name": "Can delete post",
+    "content_type": 7,
+    "codename": "delete_post"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 28,
+  "fields": {
+    "name": "Can view post",
+    "content_type": 7,
+    "codename": "view_post"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 29,
+  "fields": {
+    "name": "Can add comment",
+    "content_type": 8,
+    "codename": "add_comment"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 30,
+  "fields": {
+    "name": "Can change comment",
+    "content_type": 8,
+    "codename": "change_comment"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 31,
+  "fields": {
+    "name": "Can delete comment",
+    "content_type": 8,
+    "codename": "delete_comment"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 32,
+  "fields": {
+    "name": "Can view comment",
+    "content_type": 8,
+    "codename": "view_comment"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 33,
+  "fields": {
+    "name": "Can add tag",
+    "content_type": 9,
+    "codename": "add_tag"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 34,
+  "fields": {
+    "name": "Can change tag",
+    "content_type": 9,
+    "codename": "change_tag"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 35,
+  "fields": {
+    "name": "Can delete tag",
+    "content_type": 9,
+    "codename": "delete_tag"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 36,
+  "fields": {
+    "name": "Can view tag",
+    "content_type": 9,
+    "codename": "view_tag"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 37,
+  "fields": {
+    "name": "Can add tagged item",
+    "content_type": 10,
+    "codename": "add_taggeditem"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 38,
+  "fields": {
+    "name": "Can change tagged item",
+    "content_type": 10,
+    "codename": "change_taggeditem"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 39,
+  "fields": {
+    "name": "Can delete tagged item",
+    "content_type": 10,
+    "codename": "delete_taggeditem"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 40,
+  "fields": {
+    "name": "Can view tagged item",
+    "content_type": 10,
+    "codename": "view_taggeditem"
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 1,
+  "fields": {
+    "password": "pbkdf2_sha256$870000$Q67ssYYqECkZqFVVamvxnb$So+Zd1huABUr3sgkSvs6x09CVNVIo7yLM4UZvyjjT6A=",
+    "last_login": "2024-09-02T03:13:37.630Z",
+    "is_superuser": true,
+    "username": "admin",
+    "first_name": "",
+    "last_name": "",
+    "email": "admin@admin.com",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2024-08-31T22:04:01.546Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 1,
+  "fields": {
+    "app_label": "admin",
+    "model": "logentry"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 2,
+  "fields": {
+    "app_label": "auth",
+    "model": "permission"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 3,
+  "fields": {
+    "app_label": "auth",
+    "model": "group"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 4,
+  "fields": {
+    "app_label": "auth",
+    "model": "user"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 5,
+  "fields": {
+    "app_label": "contenttypes",
+    "model": "contenttype"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 6,
+  "fields": {
+    "app_label": "sessions",
+    "model": "session"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 7,
+  "fields": {
+    "app_label": "blog",
+    "model": "post"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 8,
+  "fields": {
+    "app_label": "blog",
+    "model": "comment"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 9,
+  "fields": {
+    "app_label": "taggit",
+    "model": "tag"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 10,
+  "fields": {
+    "app_label": "taggit",
+    "model": "taggeditem"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "79tn263yqtybi1xx5z7socpmj9yijtqf",
+  "fields": {
+    "session_data": ".eJxVjMsOwiAQRf-FtSHQMjxcuvcbyMAMUjU0Ke3K-O_apAvd3nPOfYmI21rj1nmJE4mz0OL0uyXMD247oDu22yzz3NZlSnJX5EG7vM7Ez8vh_h1U7PVbg1Wo2DFT8dagHYfEKmVi0EQ2JNQuAZbgIQwq-1FpyN7pYAxZb6GI9wf46Tfe:1skxVZ:pLY45WaKJc52gDFTuLhEGGNYyMHwIE7ooOME-7cKsps",
+    "expire_date": "2024-09-16T03:13:37.634Z"
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 4,
+  "fields": {
+    "name": "nvidia",
+    "slug": "nvidia"
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 5,
+  "fields": {
+    "name": "earnings",
+    "slug": "earnings"
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 6,
+  "fields": {
+    "name": "stock market",
+    "slug": "stock-market"
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 7,
+  "fields": {
+    "name": "stockmarket",
+    "slug": "stockmarket"
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 8,
+  "fields": {
+    "name": "wallstreet",
+    "slug": "wallstreet"
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 9,
+  "fields": {
+    "name": "business",
+    "slug": "business"
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 10,
+  "fields": {
+    "name": "sports",
+    "slug": "sports"
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 11,
+  "fields": {
+    "name": "politics",
+    "slug": "politics"
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 12,
+  "fields": {
+    "name": "news",
+    "slug": "news"
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 13,
+  "fields": {
+    "name": "world",
+    "slug": "world"
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 4,
+  "fields": {
+    "tag": 4,
+    "content_type": 7,
+    "object_id": 3
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 5,
+  "fields": {
+    "tag": 5,
+    "content_type": 7,
+    "object_id": 3
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 7,
+  "fields": {
+    "tag": 7,
+    "content_type": 7,
+    "object_id": 3
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 8,
+  "fields": {
+    "tag": 8,
+    "content_type": 7,
+    "object_id": 1
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 9,
+  "fields": {
+    "tag": 7,
+    "content_type": 7,
+    "object_id": 1
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 10,
+  "fields": {
+    "tag": 9,
+    "content_type": 7,
+    "object_id": 3
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 11,
+  "fields": {
+    "tag": 9,
+    "content_type": 7,
+    "object_id": 1
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 12,
+  "fields": {
+    "tag": 10,
+    "content_type": 7,
+    "object_id": 2
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 13,
+  "fields": {
+    "tag": 9,
+    "content_type": 7,
+    "object_id": 4
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 14,
+  "fields": {
+    "tag": 11,
+    "content_type": 7,
+    "object_id": 5
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 15,
+  "fields": {
+    "tag": 9,
+    "content_type": 7,
+    "object_id": 6
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 16,
+  "fields": {
+    "tag": 8,
+    "content_type": 7,
+    "object_id": 7
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 17,
+  "fields": {
+    "tag": 9,
+    "content_type": 7,
+    "object_id": 7
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 18,
+  "fields": {
+    "tag": 4,
+    "content_type": 7,
+    "object_id": 7
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 19,
+  "fields": {
+    "tag": 12,
+    "content_type": 7,
+    "object_id": 8
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 20,
+  "fields": {
+    "tag": 13,
+    "content_type": 7,
+    "object_id": 9
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 21,
+  "fields": {
+    "tag": 9,
+    "content_type": 7,
+    "object_id": 10
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 22,
+  "fields": {
+    "tag": 11,
+    "content_type": 7,
+    "object_id": 11
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 1,
+  "fields": {
+    "title": "Stock market today: Wall Street climbs as S&P 500 closes out fourth straight winning month",
+    "slug": "stock-markets-fed-earnings-prices-production",
+    "author": 1,
+    "body": "Stocks on Wall Street finished broadly higher Friday as the market closed out its fourth straight winning month with solid gains.\r\n\r\nA late-afternoon rally helped stocks bounce back from a midafternoon slide. The S&P 500 rose 1%, with about 76% of the stocks in the index notching gains.\r\n\r\nThe benchmark S&P 500 closed August with a 2.3% gain for the month. It’s now up 18.4% so far this year and is within 0.4% of the all-time high it set in July.\r\n\r\nThe Dow Jones Industrial Average rose 0.6%, setting its fourth all-time high this week.\r\n\r\nThe Nasdaq composite ended 1.1% higher.\r\n\r\nWall Street spent the day mulling over encouraging reports on inflation, consumer spending and income.\r\n\r\nThe Commerce Department said its personal consumption and expenditures report showed prices rose just 0.2% from June to July, up slightly from the previous month’s 0.1% increase. Compared with a year earlier, inflation was unchanged at 2.5%.\r\n\r\nEconomists had expected the PCE, which is the Federal Reserve’s preferred measure of inflation, would to show that inflation edged up to 2.6% in July. It was as high as 7.1% in the middle of 2022.\r\n\r\nStock market today: Losses for Big Tech companies lead Wall Street lower\r\nThe report confirms price increases are cooling, keeping the central bank on track to cut rates for the first time in more than four years at its upcoming meeting next month. The market is betting that the Fed will cut its benchmark rate by a full 1% by the end of the year.\r\n\r\n“Weakening inflation gives the Fed plenty of room to begin cutting rates, while still resilient household spending is the recipe for a soft landing,” said David Alcaly, lead macroeconomic strategist at Lazard Asset Management.\r\n\r\nBond yields were mixed in the Treasury market. The yield on the 10-year Treasury rose to 3.92% from 3.86% late Thursday.\r\n\r\nTechnology stocks led the market. Marvell Technology climbed 9.2% after its latest quarterly results hit Wall Street’s sales and profit targets. Other chipmakers also rose. Broadcom added 3.8% and Nvidia gained 1.5%.\r\n\r\nDell also beat analysts’ second-quarter forecasts, boosted by record server and networking revenue as companies continue to beef up their artificial intelligence infrastructure. Its shares rose 4.3%.\r\n\r\nMall-based cosmetics retailer Ulta Beauty fell 4% after its sales and profit fell short of expectations. Ulta also trimmed its guidance below analysts’ forecasts. Warren Buffet’s Berkshire Hathaway revealed it holds a stake in the company earlier this month,\r\n\r\nAll told, the S&P 500 rose 56.44 points to 5,648.40. The Dow rose 228.03 points to close at 41,563.08. The Nasdaq gained 197.19 points to 17,713.62.\r\n\r\nMostly solid U.S. earnings and economic growth updates capped off a month of encouraging reports for the broader economy. Data from various reports in August have shown that retail sales, employment and consumer confidence remain strong.\r\n\r\nFriday’s Commerce Department report also showed that Americans stepped up their spending by a vigorous 0.5% from June to July, up from 0.3% the previous month, and incomes rose 0.3%, faster in July than in the previous month.\r\n\r\nThe trends have encouraged Wall Street. Still, stocks have historically done poorly in September.\r\n\r\nSince 1950, the S&P 500 has finished higher in September only 43% of the time, making it the worst month for stocks, said Adam Turnquist, chief technical strategist for LPL Financial.\r\n\r\n“During the month, the index tends to trade sideways during the first half, with losses beginning to accumulate into month end,” Turnquist said.\r\n\r\nInvestors will be looking for clues on the Fed’s next move next Friday, when the government serves up its latest monthly jobs report. Economists polled by FactSet are expecting the economy added 155,000 jobs in August. That would follow a gain of 114,000 the previous month.\r\n\r\n“The payroll data next week is incredibly important,” said Liz Young Thomas, head of investment strategy at SoFi.\r\n\r\nMarkets in Europe rose initially following a report showing inflation fell sharply in the European Union this month. The report sets up the European Central Bank to cut interest rates next month. Major stock indexes in the region turned red by late afternoon. France’s CAC 40 slipped 0.1%, Germany’s DAX and Britain’s FTSE 100 were essentially flat.\r\n\r\nMarkets in Asia rose. Japan’s benchmark Nikkei 225 added 0.7% to finish at 38,647.75 after data on the world’s fourth largest economy came in mostly positive.\r\n\r\nU.S. stock exchanges will be closed Monday for the Labor Day holiday.",
+    "publish": "2024-08-31T22:04:48Z",
+    "created": "2024-08-31T22:05:10.862Z",
+    "updated": "2024-09-02T15:27:37.668Z",
+    "status": "PB"
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 2,
+  "fields": {
+    "title": "Caitlin Clark scores 28, Fever overcome Arike Ogunbowale’s record-tying 9 3s and beat Wings 100-93",
+    "slug": "fever-wings-caitlin-clark-score",
+    "author": 1,
+    "body": "ARLINGTON, Texas (AP) — Caitlin Clark had 28 points and 12 assists and the Indiana Fever overcame a record-tying nine 3-pointers from Arike Ogunbowale in a 100-93 victory over the Dallas Wings on Sunday.\r\n\r\nKelsey Mitchell scored 36 points, including a 3 that gave the Fever a four-point lead with 1:58 remaining in a meeting of teams that entered with matching three-game winning streaks.\r\n\r\nOgunbowale finished 9 of 16 from long range — beating her previous career best of seven 3s — and scored 34 points. The All-Star Game MVP missed two attempts at a record 10th 3-pointer, including one with the Wings trailing by six in the final minute.\r\n\r\nOgunbowale, who tied a career high with eight rebounds, matched the league record for 3s held by Mitchell (2019) and Seattle’s Jewell Loyd (2023).\r\n\r\n“I salute people like Arike because off the court, we’re really great friends,” Mitchell said. “We tend to work out and train together in the offseason. I wasn’t expecting any other way coming from a person like that.”\r\n\r\nClark and Mitchell hit five 3s apiece, combining to go 10 of 18 as the Fever shot 50% from long range and 53% overall.\r\n\r\nEvery night is girls’ night as WNBA enters Barbie world with Chicago hosting theme night\r\n“When you have two guards that are both making plays, it puts the other team in the tough position of what to take away, who to put on who,” Clark said. “We’re definitely shooting it well. We’re playing off each other well. We’re looking for each other, and we’re getting downhill, too. I think it’s been a good balance of everything.”\r\n\r\nClark was coming off a career-high 31 points in a win over fellow rookie of the year contender Angel Reese and the Chicago Sky.\r\n\r\nShe set a WNBA record with 19 assists in her first regular-season visit to Texas in the game before the Olympic break, a 101-93 Indiana loss when the Fever were on the edge of the playoff picture.\r\n\r\nNow, Indiana (17-16) is above .500 for the first time with Clark and solidly in the playoff mix while the Wings (9-23) are still hoping to recover from a slow start triggered by several key injuries. Dallas, which won its first playoff series last year, is two games out of the final postseason spot with eight remaining.\r\n\r\nThe Fever are 6-1 since the Olympic break with three of those victories on the road. The reward is six consecutive home games starting Wednesday against the last-place Los Angeles Sparks before the regular-season finale at Washington.\r\n\r\n“They’ve laid it out there. We just keep talking about emptying our tank,” Indiana coach Christie Sides said. “The confidence that they’re playing with, I’m proud of the road games. The road games have been tough. We just keep talking about momentum, keeping our foot on the gas.”\r\n\r\nAfter making her eighth 3-pointer in the third quarter, Ogunbowale was called for a foul for not giving Kelsey Mitchell a landing area on a 3.\r\n\r\nThe Wings challenged, and lost, which led to Ogunbowale getting a technical foul. The Fever scored five points on that possession, cutting their deficit to 67-64 after Dallas had taken its biggest lead at 64-55 less than two minutes earlier.\r\n\r\nMitchell added two free throws after her crucial 3 as the Fever scored eight consecutive points for a 99-91 lead with 39 seconds remaining.\r\n\r\nSatou Sabally scored 25 points, and Natasha Howard had 18 points and nine assists for the Wings. NaLyssa Smith had 14 points and eight rebounds for Indiana.\r\n\r\n___\r\nAP WNBA: https://apnews.com/hub/wnba-basketball",
+    "publish": "2024-08-31T22:11:57Z",
+    "created": "2024-08-31T22:12:11.330Z",
+    "updated": "2024-09-02T15:27:45.432Z",
+    "status": "PB"
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 3,
+  "fields": {
+    "title": "Stock market today: Losses for Big Tech companies lead Wall Street lower",
+    "slug": "stock-markets-fed-nvidia-rates-earnings",
+    "author": 1,
+    "body": "Stocks on Wall Street closed lower Wednesday as a pullback in big technology companies outweighed gains elsewhere in the market.\r\n\r\nThe S&P 500 fell 0.6%, weighed down by drops in Nvidia, Apple, Microsoft and Amazon. About 56% of the stocks in the benchmark index finished in the red. Tech sector stocks include many companies with outsized values that tend to lean more heavily on the index.\r\n\r\nThe Dow Jones Industrial Average, which was coming off two consecutive all-time highs, fell 0.4%. The Nasdaq composite, which is heavily weighted with technology stocks, closed 1.1% lower.\r\n\r\nThe selling came ahead of an eagerly anticipated earnings report from the semiconductor company Nvidia, whose chips power AI applications. The company is one of the most influential stocks on Wall Street, with a total market value topping $3 trillion.\r\n\r\nNvidia reported its second-quarter results late Wednesday. Its earnings and revenue topped Wall Street’s forecasts, but the stock fell 3.7% in after-hours trading. The shares fell 2.1% during the regular session. They’re still up 153% for the year.\r\n\r\nThe chipmaker is one of several companies that have ridden a wave of enthusiasm over artificial intelligence developments and have been responsible for much of the broader market’s big gains over the last year.\r\n\r\nNvidia stock slips even after earnings top Wall Street estimates and demand for AI chips surges\r\nThe market’s pullback ahead of Nvidia’s quarterly results may have been partly due to news about another company tied to AI, Super Micro Computer.\r\n\r\nThe server technology company’s stock sank 19.1% for the biggest decline among S&P 500 stocks after the company said it was delaying the filing of its annual report.\r\n\r\n“The Super Micro story I think has people on edge because they’re so directly linked to the AI theme,” said Ross Mayfield, investment strategist at Baird.\r\n\r\nInvestors also reviewed a mixed batch of earnings and corporate financial updates from other companies Wednesday. Nordstrom rose 4.2% after beating analysts’ earnings expectations and raising its financial forecasts for the year. Rival Kohl’s rose 0.3% after also beating analysts’ earnings expectations.\r\n\r\nPVH, which owns the Calvin Klein and Tommy Hilfiger brands, fell 6.4% after giving investors a revenue forecast short of analysts’ expectations. Food producer J.M. Smucker fell 4.9% after trimming its earnings forecast for the year.\r\n\r\nAll told, the S&P 500 fell 33.62 points to 5,592.18. The Dow fell 159.08 points to 41,091.42. The Nasdaq fell 198.79 points to 17,556.03.\r\n\r\nThe latest results from retailers and others come as Wall Street and the Federal Reserve try to gauge the resiliency of U.S. consumers amid the squeeze from inflation and high borrowing rates. The latest updates from clothing retailers, food producers and others can help shed more light on how and where people are spending money.\r\n\r\nInvestors are also looking ahead to Friday, when the U.S. government releases its latest data on inflation with the PCE, or personal consumption and expenditures report, for July. The hope is that the data shows inflation easing further — or at least stagnating — so that Fed officials remain comfortable cutting interest rates at their September meeting as they’ve strongly suggested they would.\r\n\r\nEconomists expect the PCE, which is the Fed’s preferred measure of inflation, to show that inflation edged up to 2.6% in July from 2.5% in June. It was as high as 7.1% in the middle of 2022. The rate of inflation has been easing steadily back toward the central bank’s target of 2% since then, following the Fed’s aggressive interest rate hikes.\r\n\r\nTraders expect the central bank to begin trimming its benchmark interest rate back from a two-decade high at its next meeting in September, with cuts totaling up to 1% by the end of the year.\r\n\r\nThe expectations for those interest rate cuts follow reports on retail sales, employment and consumer confidence that show the economy continues to remain strong. That has helped build confidence that the Fed will accomplish its goal of taming inflation without stalling the economy into a recession.\r\n\r\n“Economic fundamentals continue to point to sustainable disinflation,” said Gregory Daco, chief economist at EY.\r\n\r\nTreasury yields were mixed in the bond market. The yield on the 10-year Treasury rose to 3.84% from 3.83% on Tuesday.\r\n\r\nInvestor Warren Buffett’s Berkshire Hathaway unloaded more of its Bank of America stake, selling nearly 25 million shares worth almost $1 billion over the past week. Berkshire Hathaway’s Class A stock, already the most expensive stock on Wall Street, gained enough ground to elevate the conglomerate into the club of companies valued by the stock market at over $1 trillion. It’s the only company outside of the technology-related “Magnificent Seven” with that distinction.\r\n\r\nBerkshire’s Class A shares rose $5,152.03, or 0.7%, to close at $696,502.02.\r\n\r\nElsewhere, markets were mostly lower in Europe and mixed in Asia.\r\n\r\n___\r\nYuri Kageyama and Matt Ott and Josh Funk contributed.",
+    "publish": "2023-08-31T22:12:31Z",
+    "created": "2024-08-31T22:12:53.963Z",
+    "updated": "2024-09-02T15:27:33.462Z",
+    "status": "PB"
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 4,
+  "fields": {
+    "title": "Strikes start at top hotel chains as housekeepers seek higher wages and daily room cleaning work",
+    "slug": "hotel-workers-union-contracts-housekeeping",
+    "author": 1,
+    "body": "With up to 17 rooms to clean each shift, Fatima Amahmoud’s job at the Moxy hotel in downtown Boston sometimes feels impossible.\r\n\r\nThere was the time she found three days worth of blond dog fur clinging to the curtains, the bedspread and the carpet. She knew she wouldn’t finish in the 30 minutes she is supposed to spend on each room. The dog owner had declined daily room cleaning, an option that many hotels have encouraged as environmentally friendly but is a way for them to cut labor costs and cope with worker shortages since the COVID-19 pandemic.\r\n\r\nUnionized housekeepers, however, have waged a fierce fight to restore automatic daily room cleaning at major hotel chains, saying they have been saddled with unmanageable workloads, or in many cases, fewer hours and a decline in income.\r\n\r\nThe dispute has become emblematic of the frustration over working conditions among hotel workers, who were put out of their jobs for months during pandemic shutdowns and returned to an industry grappling with chronic staffing shortages and evolving travel trends.\r\n\r\nSome 10,000 hotel workers represented by the UNITE HERE union walked off the job Sunday at 24 hotels in eight cities, including Honolulu, Boston, San Francisco, San Jose, San Diego and Seattle. Hotel workers in other cities could strike in the coming days, as contract talks stall over demands for higher wages and a reversal of service and staffing cuts. At total of 15,000 workers have voted to authorize strikes.\r\n\r\nFewer Americans file for jobless claims as US labor market continues to defy elevated interest rates\r\n“We said many times to the manager that it is too much for us,” said Amahmoud, whose hotel was among those where workers have authorized a strike but have not yet walked out.\r\n\r\nMichael D’Angelo, Hyatt’s head of labor relations for the Americas, said the company’s hotels have contingency plans to minimize the impact of the strikes. “We are disappointed that UNITE HERE has chosen to strike while Hyatt remains willing to negotiate,” he said.\r\n\r\nIn a statement before the strikes began, Hilton said it was “committed to negotiating in good faith to reach fair and reasonable agreements.” Marriott and Omni did not return requests for comments.\r\n\r\nThe labor unrest serves as a reminder of the pandemic’s lingering toll on low-wage women, especially Black and Hispanic women who are overrepresented in front-facing service jobs. Although women have largely returned to the workforce since bearing the brunt of pandemic-era furloughs — or dropping out to take on caregiving responsibilities — that recovery has masked a gap in employment rates between women with college degrees and those without.\r\n\r\nThe U.S. hotel industry employs about 1.9 million people, some 196,000 fewer workers than in February 2019, according to Bureau of Labor Statistics. Nearly 90% of building housekeepers are women, according to federal statistics.\r\n\r\nIt’s a workforce that relies overwhelmingly on women of color, many of them immigrants, and which skews older, according to UNITE HERE.\r\n\r\nUnion President Gwen Mills characterizes the contract negotiations as part of long-standing battle to secure family-sustaining compensation for service workers on par with more traditionally male-dominated industries.\r\n\r\n“Hospitality work overall is undervalued, and it’s not a coincidence that it’s disproportionately women and people of color doing the work,” Mills said.\r\n\r\nThe union hopes to build on its recent success in southern California, where after repeated strikes it won significant wage hikes, increased employer contributions to pensions, and fair workload guarantees in a new contract with 34 hotels. Under the contract, housekeepers at most hotels will earn $35 an hour by July 2027.\r\n\r\nThe American Hotel And Lodging Association says 80% of its member hotels report staffing shortages, and 50% cite housekeeping as their most critical hiring need.\r\n\r\nKevin Carey, the association’s interim president and CEO, says hotels are doing all they can to attract workers. According to the association’s surveys, 86% of hoteliers have increased wages over the past six months.\r\n\r\n“Now is a fantastic time to be a hotel employee,” Carey said in an emailed statement to The Associated Press.\r\n\r\nHotel workers say the reality on the ground is more complicated.\r\n\r\nMaria Mata, 61, a housekeeper at the W Hotel in San Francisco, said she earns $2,190 every two weeks if she gets to work full time. But some weeks, she only gets called in one or two days, causing her to max out her credit card to pay for household expenses\r\n\r\n“It’s hard to look for a new job at my age. I just have to keep the faith that we will work this out,” Mata said.\r\n\r\nGuests at the Hilton Hawaiian Village often tell Nely Reinante they don’t need their rooms cleaned because they don’t want her to work too hard. She said she seizes every opportunity to explain that refusing her services creates more work for housekeepers.\r\n\r\nSince the pandemic, UNITE HERE has won back automatic daily room cleans at some hotels in Honolulu and other cities, either through contract negotiations, grievance filings or local government ordinances.\r\n\r\nBut the issue is back on the table at many hotels where contracts are expiring. Mills said UNITE HERE is striving for language to make it difficult for hotels to quietly encourage guests to opt out of daily housekeeping.\r\n\r\nThe U.S. hotel industry has rebounded from the pandemic despite average occupancy rates that remain shy of 2019 levels, largely due to higher room rates and record guest spending per room. Average revenue per available room, a key metric, is expected to reach a record high of $101.84 in 2024, according the hotel association.\r\n\r\nDavid Sherwyn, the director of the Cornell University Center for Innovative Hospitality Labor & Employment Relations, said UNITE HERE is a strong union but faces a tough fight over daily room cleaning because hotels consider reducing services part of a long-term budget and staffing strategy.\r\n\r\n“The hotels are saying the guests don’t want it, I can’t find the people and it’s a huge expense,” Sherwyn said. “That’s the battle.”\r\n\r\nWorkers bristle at what they see as moves to squeeze more out of them as they cope with erratic schedules and low pay. While unionized housekeepers tend to make higher wages, pay varies widely between cities.\r\n\r\nChandra Anderson, 53, makes $16.20 an hour as a housekeeper at the Hyatt Regency Baltimore Inner Harbor, where workers have not yet voted to strike. She is hoping for a contract that will raise her hourly pay to $20 but says the company came back with a counteroffer that “felt like a slap in the face.”\r\n\r\nAnderson, who has been her household’s sole breadwinner since her husband went on dialysis, said they had to move to a smaller house a year ago in part because she wasn’t able to get enough hours at her job. Things have improved since the hotel reinstated daily room cleaning earlier this year, but she still struggles to afford basics like groceries.\r\n\r\nTracy Lingo, president of UNITE HERE Local 7, said the Baltimore members are seeking pensions for the first time but the biggest priority is bringing hourly wages closer to those in other cities.\r\n\r\n“That’s how far behind we are,” Lingo said.\r\n\r\n—-\r\n\r\nThis story has been updated to correct that Unite Here is now saying that workers at 24 hotels are on strike, not 25.\r\n\r\n______\r\nAssociated Press Writer Jennifer Kelleher in Honolulu contributed to this story.\r\n\r\n____\r\nThe Associated Press’ women in the workforce and state government coverage receives financial support from Pivotal Ventures. AP is solely responsible for all content. Find AP’s standards for working with philanthropies, a list of supporters and funded coverage areas at AP.org.",
+    "publish": "2024-09-01T01:17:47Z",
+    "created": "2024-09-01T01:17:50.594Z",
+    "updated": "2024-09-02T15:27:54.945Z",
+    "status": "PB"
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 5,
+  "fields": {
+    "title": "Moms for Liberty fully embraces Trump and widens role in national politics as election nears",
+    "slug": "moms-for-liberty-trump-2024-election-harris",
+    "author": 1,
+    "body": "WASHINGTON (AP) — In her welcoming remarks at Moms for Liberty’s annual gathering in the nation’s capital on Friday, the group’s co-founder, Tiffany Justice, urged members to “fight like a mother” against the Democratic presidential ticket.\r\n\r\nLater that evening, after she had interviewed Republican nominee Donald Trump onstage, she made a point to say she was personally endorsing him for the presidency. Their talk show style chat was preceded by a “Trump, Trump, Trump” chant from the audience.\r\n\r\nThe weekend’s gathering, drawing parent activists from across the country, has showcased how Moms for Liberty has moved toward fully embracing Trump and his political messaging as November’s election draws nearer. The group is officially a nonpartisan nonprofit that says it’s open to anyone who wants parents to have a greater say in their children’s education, yet there was little pretense about which side of the nation’s political divide it has chosen.\r\n\r\nA painting that was prominently displayed on an easel next to the security station attendees had to pass through before being allowed into the conference area showed Vice President Kamala Harris kneeling over a bald eagle carcass, a communist symbol on her jacket and her mouth dripping with blood. A Moms for Liberty spokeswoman said she hadn’t seen the gruesome painting and noted that the only official signage for the event included the group’s logo.",
+    "publish": "2024-09-01T01:29:05Z",
+    "created": "2024-09-01T01:29:05.610Z",
+    "updated": "2024-09-02T15:28:00.371Z",
+    "status": "PB"
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 6,
+  "fields": {
+    "title": "US shoppers sharply boosted spending at retailers in July despite higher prices",
+    "slug": "retailers-spending-consumers-inflation-stores-shoppers-economy",
+    "author": 1,
+    "body": "WASHINGTON (AP) — Americans stepped up their spending at retailers last month by the most in a year and a half, easing concerns that the economy might be weakening under the pressure of higher prices and elevated interest rates.\r\n\r\nThe Commerce Department reported Thursday that retail sales jumped 1% from June to July, the biggest such increase since January 2023, after having declined slightly the previous month. Auto dealers, electronics and appliance stores and grocery stores all reported strong sales gains.\r\n\r\nThe July retail sales data provided reassurance that the U.S. economy, while slowing under the pressure of high interest rates, remains resilient. It showed that America’s consumers, the primary driver of economic growth, are still willing to spend.\r\n\r\nThe prospect of a still-growing economy is likely to be promoted by Vice President Kamala Harris’ presidential campaign, which is preparing to roll out policies Friday to ban “price gouging” on groceries. On Wednesday, her opponent, former President Donald Trump slammed the economic record of the Biden-Harris administration, though he wildly inflated cost increases on food and monthly mortgage payments.\r\n\r\nOther economic data released Thursday was also mostly positive, including a report on first-time applications for unemployment benefits. The figures show that businesses are mainly holding onto their workers and not increasing layoffs.\r\n\r\nStock market today: Wall Street climbs as S&P 500 closes out fourth straight winning month\r\nWith Americans spending more, economists at Morgan Stanley have boosted their forecast for growth in the July-September quarter to a 2.3% annual rate, from an earlier estimate of 2.1%. The economy expanded at a healthy 2.8% rate in the April-June quarter.\r\n\r\nAll told, the latest data is consistent with an economy that is headed toward a “soft landing,” in which the Federal Reserve raises interest rates enough to cool inflation but not so much as to cause a recession.\r\n\r\n“The ongoing resilience of consumer spending should ease recession fears and reduce the odds markets have placed on a larger (half-point) cut” at the Fed’s meeting in mid-September, said Michael Pearce, an economist at Oxford Economics. Instead, economists increasingly expect the Fed to begin cutting interest rates next month with a modest quarter-point reduction in its key rate, which affects many consumer and business loans.\r\n\r\nAdjusted for inflation, sales rose about 0.8% last month. And excluding gas station sales, which don’t reflect Americans’ appetite to spend, retail purchases also rose 1%.\r\n\r\nConsumers have been pummeled since the pandemic by high prices and elevated interest rates. Yet at the same time, average wages have also been rising, providing many households with the means to keep spending.\r\n\r\nInflation-adjusted wages have increased slightly from a year ago. Upper-income households have also seen their wealth increase, with stock prices and home values having jumped in the past three years. Increases in wealth can encourage more spending.\r\n\r\nAuto sales jumped 3.6% last month, the largest increase since January 2023. It marked a rebound from the previous month, when a cyberattack involving many dealerships slowed sales.\r\n\r\nSales at electronics and appliances stores surged 1.6%. And they rose 0.9% at hardware stores and garden centers. Restaurant sales were up 0.3%, a sign that Americans are still willing to spend on discretionary items, such as eating out.\r\n\r\nFinancial markets had plunged earlier this month on fears surrounding the economy after the government reported that hiring was much weaker than expected in July and the unemployment rate rose for a fourth straight month.\r\n\r\nYet since then, economic reports have shown that layoffs are still low and that activity and hiring in services industries remains solid. Americans are also still splurging on services, such as travel, entertainment, and health care, which are not included in Thursday’s retail sales report.\r\n\r\nStill, some economists worry that much of Americans’ spending now is being fueled by the increased use of credit cards. And the proportion of Americans who are falling behind on their credit card payments, while still relatively low, has been rising.",
+    "publish": "2024-09-01T01:29:42Z",
+    "created": "2024-09-01T01:29:42.705Z",
+    "updated": "2024-09-02T15:28:06.847Z",
+    "status": "PB"
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 7,
+  "fields": {
+    "title": "Nvidia stock slips even after earnings top Wall Street estimates and demand for AI chips surges",
+    "slug": "nvidia-ai-earnings-stock",
+    "author": 1,
+    "body": "LOS ANGELES (AP) — Nvidia may have exceeded Wall Street estimates as its profit jumped — buffeted by the chipmaking dominance that has cemented Nvidia’s place as the poster child of the artificial intelligence boom — but investors seemed less than impressed.\r\n\r\nThe company reported a net income of to $16.6 billion. Adjusted for one-time items, net income was $16.95 billion. Revenue rose to $30 billion, up 122% from a year ago and 15% from the previous quarter.\r\n\r\nBy comparison, S&P 500 companies overall are expected to deliver just 5% growth in revenue for the quarter, according to FactSet. Still, Nvidia shares slipped nearly 4% in after-hours trading.\r\n\r\nRyan Detrick, chief market strategist at Carson Group, said that despite growing revenue “it appears the bar was just set a tad too high this earnings season.”\r\n\r\n“Death, taxes, and NVDA beats on earnings are three things you can bank on,” Detrick said. “Here’s the issue. The size of the beat this time was much smaller than we’ve been seeing. Even future guidance was raised, but again not by the tune from previous quarters.”\r\n\r\nImage\r\nA sign for a Nvidia office building is shown in Santa Clara, Calif., Wednesday, Aug. 7, 2024. (AP Photo/Jeff Chiu)\r\n\r\nThe company reported second-quarter adjusted earnings per share of 68 cents per share, up from 27 cents a year ago. Nvidia said it expects third quarter revenue to grow to $32.5 billion, plus or minus 2%.\r\n\r\nNvidia has led the artificial intelligence sector to become one of the stock market’s biggest companies, as tech giants continue to spend heavily on the company’s chips and data centers needed to train and operate their AI systems.\r\n\r\n“The people who are investing in Nvidia infrastructure are getting returns on it right away,” Jensen Huang, founder and CEO of Nvidia, said on a call with analysts. “It’s the best ROI infrastructure, computing infrastructure investment you can make today.”\r\n\r\nDemand for generative AI products that can compose documents, make images and serve as personal assistants has fueled sales of Nvidia’s specialized chips over the last year. In June, Nvidia briefly rose to become the most valuable company in the S&P 500. The company is now worth over $3 trillion.\r\n\r\nNvidia CFO Colette Kress said during the analyst call that the company is planning to increase production of its Blackwell AI chips beginning in the fourth quarter and continuing through fiscal 2026. Kress said Nvidia expects several billion dollars in Blackwell revenue in the fourth quarter, with shipments of its Hopper graphics processor unit, or GPU, expected to increase in the second half of fiscal 2025.\r\n\r\nIn an interview with Bloomberg Television, Huang said the company will “have a great next year as well.”\r\n\r\nThrough the year’s first six months, Nvidia’s stock price soared nearly 150%. At that point, it was trading at a little more than 100 times the company’s earnings over the prior 12 months. That’s much more expensive than it’s been historically and than the S&P 500 in general. That’s why analysts warn of a selloff if Wall Street sees any indication that AI demand is waning.\r\n\r\nDan Ives, an analyst with Wedbush Securities, called the earnings part of a “historic, meteoric rise from Nvidia and the godfather of AI, Jensen (Huang).” Investors, Ives added, are picking apart “robust numbers” and trying to find holes in them. Although Nvidia said it estimates about $32.5 billion in revenue in the third fiscal quarter, some analysts expected a slightly higher figure, he said.\r\n\r\n“I view it as kind of like splitting hairs,” Ives said. The demand for AI technology is only accelerating, he added, echoing Huang’s previous statements that the world is in the midst of the next industrial revolution.\r\n\r\n“This is the most watched earnings — not just in tech, but in the market, in many years,” he said. “Investors will initially overreact to any sort of short-lived weakness. But I believe this actually put more fuel into the tank of the bull market.”",
+    "publish": "2024-09-01T01:30:49Z",
+    "created": "2024-09-01T01:30:53.879Z",
+    "updated": "2024-09-02T15:28:33.291Z",
+    "status": "PB"
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 8,
+  "fields": {
+    "title": "NASA record holder can relate to astronauts stuck in space. He was, too",
+    "slug": "nasa-astronauts-stuck-space-boeing",
+    "author": 1,
+    "body": "NASA’s record-holding astronaut is urging his two stuck-in-space colleagues to stay positive and “keep up the good work.”\r\n\r\nFrank Rubio knows firsthand about unexpectedly long spaceflights. His own visit to the International Space Station lasted just over a year, twice as long as planned.\r\n\r\nSo for the past two weeks, he’s been helping out with his friends’ extended stay. He said he spoke with Suni Williams on Thursday and expressed pride in how she and Butch Wilmore have coped with their situation.\r\n\r\nWilliams and Wilmore should have returned to Earth on Boeing’s troubled Starliner capsule back in June, a week after blasting off on its first test flight with a crew. After extensive tests and analysis of thruster problems and helium leaks, NASA decided last weekend it would be safer for SpaceX to fly them home, but that won’t happen until February, more than eight months after they blasted off.\r\n\r\n“They’re doing great work, really maintaining a positive attitude up there, setting a great example and knocking out a whole lot of extra work on the space station,” Rubio told The Associated Press from NASA’s Johnson Space Center in Houston.\r\n\r\nNASA astronauts who will spend extra months at the space station are veteran Navy pilots\r\nWhile remaining in space until next year is not “the optimal outcome,” Rubio said, “they’ve done a fantastic job of dealing with adversity.” Their families, like his own, also have had to make sacrifices because of the switch in plans.\r\n\r\n“But that’s part of our job is just to adapt and overcome and make the best of the situation,” he said, “and they’ve done just that, so super proud of them.”\r\n\r\nWilliams and Wilmore haven’t spoken publicly about the Starliner dilemma since their lone orbital news conference last month, well before the decision to bump them to SpaceX and bring Boeing’s capsule back empty in early September.\r\n\r\nRubio’s own mission was extended after his Russian Soyuz capsule was hit by space junk and leaked all its coolant. A new Soyuz had to be rushed up for him and his two Russian crewmates, and they rode it back to Earth last September. Rubio holds the U.S. record for the longest single spaceflight with his 371-day mission.\r\n\r\n___\r\nThe Associated Press Health and Science Department receives support from the Howard Hughes Medical Institute’s Science and Educational Media Group. The AP is solely responsible for all content.",
+    "publish": "2024-09-01T01:31:07Z",
+    "created": "2024-09-01T01:31:10.599Z",
+    "updated": "2024-09-02T15:28:50.311Z",
+    "status": "PB"
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 9,
+  "fields": {
+    "title": "Israelis erupt in protest to demand a cease-fire after 6 more hostages die in Gaza",
+    "slug": "israel-palestinians-gaza-hamas-war-hostages-hersh-netanyahu",
+    "author": 1,
+    "body": "TEL AVIV, Israel (AP) — Tens of thousands of grieving and angry Israelis surged into the streets Sunday night after six more hostages were found dead in Gaza, chanting “Now! Now!” as they demanded that Prime Minister Benjamin Netanyahu reach a cease-fire with Hamas to bring the remaining captives home.\r\n\r\nThe mass outpouring appeared to be the largest such demonstration in 11 months of war and protesters said it felt like a possible turning point, although the country is deeply divided.\r\n\r\nIsrael’s largest trade union, the Histadrut, further pressured the government by calling a general strike for Monday, the first since the Oct. 7 Hamas attack that started the war. It aims to shut down or disrupt major sectors of the economy, including banking, health care and the country’s main airport.\r\n\r\nCease-fire negotiations have dragged on for months. Many blame Netanyahu for failing to reach a deal, which opinion polls show a majority of Israelis favor. But the prime minister also has significant support for his strategy of “total victory” against Hamas, even if a deal for the hostages has to wait.\r\n\r\nThousands of people, some of them weeping, gathered Sunday night outside Netanyahu’s office in Jerusalem. In Tel Aviv, hostages’ relatives marched with coffins to symbolize the toll.\r\n\r\nWho were the 6 hostages whose bodies the Israeli military recovered from Gaza?\r\n“We really think that the government is making these decisions for its own conservation and not for the lives of the hostages, and we need to tell them, ‘Stop!’” said Shlomit Hacohen, a Tel Aviv resident.\r\n\r\nThree of the six hostages found dead — including an Israeli-American — were reportedly scheduled to be released in the first phase of a cease-fire proposal discussed in July. This fueled fury and frustration among the protesters.\r\n\r\n“Nothing is worse than knowing that they could have been saved,” said Dana Loutaly. “Sometimes it takes something so awful to shake people up and get them out into the streets.”\r\n\r\nThe military said all six hostages were killed shortly before Israeli forces arrived. “Whoever murders hostages doesn’t want a deal,” Netanyahu said, blaming the Hamas for the stalled negotiations.\r\n\r\nOne hostage was Israeli-American Hersh Goldberg-Polin, 23, a native of Berkeley, California, who lost part of his left arm to a grenade in the attack. In April, Hamas issued a video that showed him alive, sparking protests in Israel.\r\n\r\nThe army identified the others as Ori Danino, 25; Eden Yerushalmi, 24; Almog Sarusi, 27; Alexander Lobanov, 33; and Carmel Gat, 40.\r\n\r\nThe Israeli Health Ministry said autopsies had determined the hostages were shot at close range and died on Thursday or Friday. The army said the bodies were recovered from a tunnel in the southern Gaza city of Rafah, around a kilometer (half a mile) from where another hostage was rescued alive last week.\r\n\r\nLt. Col. Nadav Shoshani, a military spokesperson, said Israeli forces found the bodies several dozen meters (yards) underground as “ongoing combat” was underway, but that there was no firefight in the tunnel itself. He said there was no doubt Hamas had killed them.\r\n\r\nHamas has offered to release the hostages in return for an end to the war, the withdrawal of Israeli forces from Gaza and the release of a large number of Palestinian prisoners, including high-profile militants.\r\n\r\nIzzat al-Rishq, a senior Hamas official, said the hostages would still be alive if Israel had accepted a U.S.-backed cease-fire proposal that Hamas said it had agreed to in July.\r\n\r\nFunerals began, with more outrage. Sarusi’s body was wrapped in an Israeli flag. “You were abandoned on and on, daily, hour after hour, 331 days,” his mother, Nira, said. “You and so many beautiful and pure souls.”\r\n\r\nDivisions in Israel, and in the government\r\nNetanyahu has vowed to continue the fighting until Hamas is destroyed.\r\n\r\nTop security officials say the intense pressure on Hamas has created favorable conditions for a cease-fire deal. The army, noting the difficulty of rescue operations, has acknowledged that a deal is the only way to bring home large numbers of hostages safely.\r\n\r\nBut critics have accused the prime minister of putting his personal interests over those of the hostages. The war’s end likely will lead to an investigation into his government’s failures in the Oct. 7 attacks, the government’s collapse and early elections.\r\n\r\nSome analysts said the public outcry over the six hostages who died could signal a new level of political pressure on Netanyahu.\r\n\r\n“I think this is an earthquake. This isn’t just one more step in the war,” said Nomi Bar-Yaacov, associate fellow in the International Security Program at Chatham House, shortly before Sunday’s protests.\r\n\r\nDivisions also have been exposed within the government. Senior military and security officials, including Defense Minister Yoav Gallant, have warned that time is running out.\r\n\r\nIsrael’s Channel 12 reported that Netanyahu got into a shouting match at a security Cabinet meeting Thursday with Gallant, who accused him of prioritizing control of a strategic corridor along the Gaza-Egypt border — a major sticking point in the talks — over the lives of the hostages.\r\n\r\nAn Israeli official confirmed the report and said three of the hostages — Goldberg-Polin, Yerushalmi and Gat — had been slated to be released in the first phase of a cease-fire proposal discussed in July. The official was not authorized to brief media about the negotiations and spoke on condition of anonymity.\r\n\r\n“In the name of the state of Israel, I hold their families close to my heart and ask forgiveness,” Gallant said Sunday. The Cabinet was meeting Sunday night.\r\n\r\nA forum of hostage families has demanded a “complete halt of the country” to push for a cease-fire and hostage release.\r\n\r\nEven a mass outpouring of anger would not immediately threaten Netanyahu or his far right government. He still controls a majority in parliament. But he has caved in to public pressure before. A general strike last year helped lead to a delay in his controversial judicial overhaul.\r\n\r\nA family’s high-profile campaign\r\nGoldberg-Polin’s parents, U.S.-born immigrants to Israel, became perhaps the most high-profile relatives of hostages on the international stage. They met with U.S. President Joe Biden and Pope Francis and on Aug. 21, they addressed the Democratic National Convention — after sustained applause and chants of “bring him home.”\r\n\r\nBiden on Sunday said he was “devastated and outraged.” The White House said he spoke with Goldberg-Polin’s parents and offered condolences.\r\n\r\nSome 250 hostages were taken on Oct. 7. Israel now believes 101 remain in captivity, including 35 who are thought to be dead. More than 100 were freed during a cease-fire in November in exchange for the release of Palestinians imprisoned by Israel. Eight have been rescued by Israeli forces. Israeli troops mistakenly killed three Israelis who escaped captivity in December.\r\n\r\nHamas-led militants killed some 1,200 people, mostly civilians, when they stormed into southern Israel on Oct. 7. Israel’s retaliatory offensive in Gaza has killed over 40,000 Palestinians, according to local health officials, who do not say how many were militants.\r\n\r\nOn Sunday, an Israeli strike hit a car on a road in southern Gaza and killed four Palestinians, according to Aqsa Martyrs Hospital officials and an AP journalist who counted the bodies.\r\n\r\nThe war has displaced the vast majority of Gaza’s 2.3 million people, often multiple times, and plunged the besieged territory into a humanitarian catastrophe.\r\n\r\n___\r\nAssociated Press writers Samy Magdy in Cairo, Danica Kirka in London and Darlene Superville in Rehoboth Beach, Delaware, contributed to this report.\r\n\r\n___\r\nFollow AP’s war coverage at https://apnews.com/hub/israel-hamas-war\r\n\r\nMELANIE LIDMAN\r\nLidman is an Associated Press reporter based in Tel Aviv, Israel.",
+    "publish": "2024-09-02T00:27:48Z",
+    "created": "2024-09-02T00:28:01.102Z",
+    "updated": "2024-09-02T15:28:55.693Z",
+    "status": "PB"
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 10,
+  "fields": {
+    "title": "How US changes to ‘noncompete’ agreements and overtime pay could affect workers",
+    "slug": "noncompete-agreement-overtime-workers-employers-jobs-career-biden",
+    "author": 1,
+    "body": "NEW YORK (AP) — For millions of American workers, the federal government took two actions this week that could bestow potentially far-reaching benefits.\r\n\r\nIn one move, the Federal Trade Commission voted to ban noncompete agreements, which bar millions of workers from leaving their employers to join a competitor or start a rival business for a specific period of time. The FTC’s move, which is already being challenged in court, would mean that such employees could apply for jobs they weren’t previously eligible to seek.\r\n\r\nIn a second move, the Biden administration finalized a rule that will make millions more salaried workers eligible for overtime pay. The rule significantly raises the salary level that workers could earn and still qualify for overtime.\r\n\r\nThe new rules don’t take effect immediately. And they won’t benefit everyone. So what exactly would these rules mean for America’s workers?\r\n\r\nWHAT IS A NONCOMPETE AGREEMENT?\r\nNoncompete agreements, which employers have deployed with greater frequency in recent years, limit an employee’s ability to jump ship for a rival company or start a competing business for a stated period of time. The idea is to prevent employees from taking a company’s trade secrets, job leads or sales relationships to a direct competitor, who could immediately capitalize on them.\r\n\r\nCanadian rail union files lawsuits challenging back-to-work orders\r\nMany industries use noncompete agreements, often among their salespeople, said Paul Lopez, managing partner at Tripp Scott, a Florida law firm that has handled more than 100 cases involving noncompete clauses.\r\n\r\n“They’re the ones out there generating leads and sales,” Lopez said. “The last thing you as a business will want is for that person to go over to your competition and do the same thing.”\r\n\r\nWHO IS TYPICALLY SUBJECT TO THESE AGREEMENTS?\r\nPeople may assume that noncompete agreements apply only to high-level executives in the technology or finance industries. But many lower-level workers are subject to the restrictions as well. The rules vary by state.\r\n\r\nIn Florida, one medical sales worker was barred by his employer from joining a competitor for 10 years — and once he left his job, was unemployed for more than five years, said Stefanie Camfield, assistant general counsel with Engage PEO, a Florida company that handles human resources for small and medium-sized businesses.\r\n\r\n“He was able to find another sales position in a completely different industry,” Camfield said. “But the learning curve was there, so he wasn’t making the same amount of money.”\r\n\r\nIn another case, a company in the optical industry that had hired a sales associate was informed by his former employer that it intended to enforce a noncompete agreement. So the optical company terminated the employee, Camfield said.\r\n\r\n“They thought they had a qualified sales associate hired and ready to get to work, and all of a sudden now they’re back to square one.”\r\n\r\nWHY BAN NONCOMPETE AGREEMENTS?\r\nSome view noncompete agreements as harmful and unfair to workers by limiting their mobility. Career opportunities are often more attractive outside an employee’s current workplace. And with restrictions on the type of work they can do for a competitor, it can be hard to shift into a more suitable or lucrative position.\r\n\r\nMany hiring managers, after all, most value job candidates who already have a certain level of experience in the same industry.\r\n\r\n“A noncompete would unilaterally ban someone from getting exactly the kind of job that it’s reasonable to want,” said Jennifer Tosti-Kharas, a professor of organizational behavior at Babson College in Massachusetts. “To cut people off from that is overly paternalistic. It’s using a really blunt instrument to limit people’s mobility, when in reality there are other legal mechanisms to prevent trade secrets being disclosed.”\r\n\r\nHOW DO I KNOW IF I’M SUBJECT TO A NONCOMPETE?\r\nPeople are sometimes surprised to learn that they’re bound by such an agreement. They might not even find out until after they’ve left for a new job, and their former employer intervenes and causes them to be fired.\r\n\r\n“When you join a company, you’re so focused on the opportunity in front of you, you might not be thinking about what’s that next jump,” Tosti-Kharas said.\r\n\r\nExperts suggest that employees consult their human resources department about any noncompete agreements that might exist. If a workplace doesn’t have an HR department, an employee should ask a lawyer for the company.\r\n\r\nARE TRADE SECRETS NOW LIKELY TO BE SPILLED?\r\nThere are still laws on the books that protect companies’ trade secrets. The FTC decision doesn’t change that.\r\n\r\nAnd the U.S. Chamber of Commerce has already filed a lawsuit against the Federal Trade Commission, calling its decision a dangerous precedent for government micromanagement of business. Lawsuits could delay any implementation of the FTC’s new rule, potentially for years.\r\n\r\nWHAT ABOUT THE NEW OVERTIME RULES?\r\nStarting July 1, employers of all sizes will be required pay overtime — time and a half salary after 40 hours a week — to salaried workers who make less than $43,888 a year in certain executive, administrative and professional roles. That cap will then rise to $58,656 by the start of 2025. Previously, the cap was $35,568.\r\n\r\nWHO QUALIFIES?\r\nThe Labor Department estimates that 4 million salaried workers who weren’t previously eligible will qualify. Some occupations, though, including teachers, doctors and lawyers are not eligible for overtime pay and thus are not affected by the change. And some states, like California and New York, already have salary thresholds that exceed the federal level.\r\n\r\nWHAT’S THE REACTION SO FAR?\r\nPredictably, groups that represent companies have lined up against the new rule. Conversely, worker groups are applauding it as a necessary and long-overdue change.\r\n\r\nThe National Retail Federation argued that the new rules “curtail retailers’ ability to offer the most flexible, generous and tailored benefits packages to lower-level exempt employees across the industry.”\r\n\r\nIt also asserted that the new rules don’t give employers adequate time to make the changes needed. And it complained that the inclusion of automatic increases “exceeds the Department’s legal authority and oversteps longstanding Fair Labor Standards Act and Administrative Procedure Act principles.”\r\n\r\nOn the social media site X, the AFL-CIO labor organization said the rules will “restore and extend overtime protections for hard-working Americans.”\r\n\r\nWILL THE CHANGES BE CHALLENGED IN COURT?\r\nAlmost certainly so. A 2016 effort by the Obama administration was scuttled in court just days before it was set to take effect. Because the new overtime rules won’t take effect until July 1, groups have time to study the ruling before mounting a challenge.\r\n\r\n“I would expect there will be some legal challenges,” said Ted Hollis, a partner at the law firm Quarles & Brady. “When the Obama administration published its proposed rule in 2016, that was almost immediately challenged in court.”\r\n\r\nHOW SHOULD BUSINESSES PREPARE FOR THIS?\r\nCompanies of all sizes will have to reclassify workers who will now qualify for overtime pay — and make sure they track hours and pay them properly.\r\n\r\nAnother option is to raise employees’ salaries so they would remain exempt from overtime. But employers should keep in mind that two more increases are coming under the new timetable.\r\n\r\nThey’ll also have to determine how they will budget for the extra pay for overtime. Small businesses will have the toughest time.\r\n\r\n“Some are going to have to cut workers,” Hollis said. “Others will have to cut hours from existing workers.\r\n\r\n“Some are going to have to raise prices, and some probably won’t be able to figure out a way to make it economically work and wind up having to shut down, unfortunately.”",
+    "publish": "2024-09-02T00:39:06Z",
+    "created": "2024-09-02T00:39:37.771Z",
+    "updated": "2024-09-02T15:29:01.813Z",
+    "status": "PB"
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 11,
+  "fields": {
+    "title": "California lawmakers approve legislation to ban deepfakes, protect workers and regulate AI",
+    "slug": "california-ai-election-deepfakes-safety-regulations",
+    "author": 1,
+    "body": "SACRAMENTO, Calif. (AP) — California lawmakers approved a host of proposals this week aiming to regulate the artificial intelligence industry, combat deepfakes and protect workers from exploitation by the rapidly evolving technology.\r\n\r\nThe California Legislature, which is controlled by Democrats, is voting on hundreds of bills during its final week of the session to send to Gov. Gavin Newsom’s desk. Their deadline is Saturday.\r\n\r\nThe Democratic governor has until Sept. 30 to sign the proposals, veto them or let them become law without his signature. Newsom signaled in July he will sign a proposal to crack down on election deepfakes but has not weighed in other legislation.\r\n\r\nHe warned earlier this summer that overregulation could hurt the homegrown industry. In recent years, he often has cited the state’s budget troubles when rejecting legislation that he would otherwise support.\r\n\r\nHere is a look at some of the AI bills lawmakers approved this year.\r\n\r\nCombatting deepfakes\r\nCiting concerns over how AI tools are increasingly being used to trick voters and generate deepfake pornography of minors, California lawmakers approved several bills this week to crack down on the practice.\r\n\r\nRELATED COVERAGE\r\nImage\r\nIllegal voting by noncitizens is rare, yet Republicans are making it a major issue this election\r\nImage\r\nCompanies are crafting new ways to grow cocoa, and chocolate alternatives, to keep up with demand\r\nImage\r\nCalifornia lawmakers pass landmark bills to atone for racism, but hold off on fund to take action\r\nLawmakers approved legislation to ban deepfakes related to elections and require large social media platforms to remove the deceptive material 120 days before Election Day and 60 days thereafter. Campaigns also would be required to publicly disclose if they’re running ads with materials altered by AI.\r\n\r\nA pair of proposals would make it illegal to use AI tools to create images and videos of child sexual abuse. Current law does not allow district attorneys to go after people who possess or distribute AI-generated child sexual abuse images if they cannot prove the materials are depicting a real person.\r\n\r\nTech companies and social media platforms would be required to provide AI detection tools to users under another proposal.\r\n\r\nSettng safety guardrails\r\nCalifornia could become the first state in the nation to set sweeping safety measures on large AI models.\r\n\r\nThe legislation sent by lawmakers to the governor’s desk requires developers to start disclosing what data they use to train their models. The efforts aim to shed more light into how AI models work and prevent future catastrophic disasters.\r\n\r\nAnother measure would require the state to set safety protocols preventing risks and algorithmic discrimination before agencies could enter any contract involving AI models used to define decisions.\r\n\r\nProtecting workers\r\nInspired by the months-long Hollywood actors strike last year, lawmakers approved a proposal to protect workers, including voice actors and audiobook performers, from being replaced by their AI-generated clones. The measure mirrors language in the contract the SAG-AFTRA made with studios last December.\r\n\r\nState and local agencies would be banned from using AI to replace workers at call centers under one of the proposals.\r\n\r\nCalifornia also may create penalties for digitally cloning dead people without consent of their estates.\r\n\r\nKeeping up with the technology\r\nAs corporations increasingly weave AI into Americans’ daily lives, state lawmakers also passed several bills to increase AI literacy.\r\n\r\nOne proposal would require a state working group to consider incorporating AI skills into math, science, history and social science curriculums. Another would develop guideline on how schools could use AI in the classrooms.",
+    "publish": "2024-09-02T00:43:59Z",
+    "created": "2024-09-02T00:44:24.157Z",
+    "updated": "2024-09-02T15:29:10.952Z",
+    "status": "PB"
+  }
+},
+{
+  "model": "blog.comment",
+  "pk": 1,
+  "fields": {
+    "post": 3,
+    "name": "Wall Street Bets",
+    "email": "admin@admin.com",
+    "body": "Puts on the stock market!",
+    "created": "2024-09-02T03:51:16.432Z",
+    "updated": "2024-09-02T03:51:27.261Z",
+    "active": true
+  }
+},
+{
+  "model": "blog.comment",
+  "pk": 2,
+  "fields": {
+    "post": 3,
+    "name": "Millionaire",
+    "email": "admin@admin.com",
+    "body": "$20 on Intel",
+    "created": "2024-09-02T04:32:20.672Z",
+    "updated": "2024-09-02T04:32:20.672Z",
+    "active": true
+  }
+}
+]
