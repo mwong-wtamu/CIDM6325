@@ -2,6 +2,7 @@ from django.conf import settings
 from django.db import models
 from django.urls import reverse
 from django.utils import timezone
+from django.db.models import Avg
 from taggit.managers import TaggableManager
 
 
@@ -69,3 +70,53 @@ class Comment(models.Model):
 
     def __str__(self):
         return f"Comment by {self.name} on {self.post}"
+
+
+class Recipe(Post):
+    ingredients = models.TextField()
+    prep_time = models.IntegerField(help_text="Preparation time in minutes")
+    cook_time = models.IntegerField(help_text="Cooking time in minutes")
+    # average_rating = models.DecimalField(max_digits=3, decimal_places=2, default=0.0)
+
+    @property
+    def average_rating(self):
+        return self.ratings.aggregate(average=Avg("score"))["average"] or 0.0
+
+    def __str__(self):
+        return f"{self.title} - {self.average_rating:.2f}"
+
+    def get_absolute_url(self):
+        return reverse(
+            "blog:recipe_detail",
+            args=[self.publish.year, self.publish.month, self.publish.day, self.slug],
+        )
+
+
+class Rating(models.Model):
+    recipe = models.ForeignKey(Recipe, on_delete=models.CASCADE, related_name="ratings")
+    user = models.ForeignKey(settings.AUTH_USER_MODEL, on_delete=models.CASCADE)
+    score = models.PositiveIntegerField(default=1)
+
+    class Meta:
+        unique_together = ("recipe", "user")
+
+
+class RecipeComment(models.Model):
+    recipe = models.ForeignKey(
+        Recipe, on_delete=models.CASCADE, related_name="recipe_comments"
+    )
+    name = models.CharField(max_length=80)
+    email = models.EmailField()
+    body = models.TextField()
+    created = models.DateTimeField(auto_now_add=True)
+    updated = models.DateTimeField(auto_now=True)
+    active = models.BooleanField(default=True)
+
+    class Meta:
+        ordering = ["created"]
+        indexes = [
+            models.Index(fields=["created"]),
+        ]
+
+    def __str__(self):
+        return f"Comment by {self.name} on {self.recipe}"
