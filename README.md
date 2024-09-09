@@ -1,4 +1,4 @@
-# CIDM 6325 - Fall 2024
+# CIDM 6325 - Fall 2024 - Chapter 1 - 3
 
 These are homework assignments for the West Texas A&M University Graduate Level course for CIDM 6325 Fall 2024.
 
